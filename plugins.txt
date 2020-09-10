@@ -1,0 +1,10 @@
+configuration-as-code
+git
+junit
+pipeline-model-definition
+pipeline-stage-step
+pipeline-maven
+workflow-aggregator
+kubernetes
+greenballs
+slack

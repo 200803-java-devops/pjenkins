@@ -1,0 +1,26 @@
+jenkins:
+  systemMessage: "Jenkins with Configuration as Code"
+  numExecutors: 1
+  mode: NORMAL
+  securityRealm:
+    local:
+      allowsSignup: false
+      users:
+        - id: admin
+          password: admin
+  authorizationStrategy:
+    loggedInUsersCanDoAnything:
+      allowAnonymousRead: false
+tool:
+  git:
+    installations:
+      - home: "git"
+        name: "Default"
+  # maven:
+  #   installations:
+  #     - name: "maven3"
+  #       properties:
+  #       - installSource:
+  #         installers:
+  #         - maven:
+  #           id: "3.6.3"
